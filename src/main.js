@@ -7,11 +7,13 @@ import axios from 'axios'
 import elementUi from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import babelPolyfill from "babel-polyfill"
+// import VueWebsocket from "vue-websocket";
 
 Vue.config.productionTip = false
 Vue.prototype.$ajax = axios
 Vue.use(elementUi)
 Vue.use(babelPolyfill)
+// Vue.use(VueWebsocket);
 
 /* eslint-disable no-new */
 new Vue({
